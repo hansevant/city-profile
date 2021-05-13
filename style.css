@@ -17,23 +17,26 @@ body {
 .container{
     font-size: 20px;
     padding: 20px;
-    background-color: blueviolet;
+    background:linear-gradient(180deg, blueviolet, darkorchid );
     text-align: center;
     color: white;
 }
 
 nav{
-    background-color: darkorchid;
+    background: darkorchid;
     padding: 5px;
     position: sticky;
     top: 0;
     padding: 5px;
+    
 }
 
 nav ul li{
     display: inline;
     list-style: none;
-    margin-right:10px ;
+
+    padding: 0 30px;
+    border-right: 1.5px solid white;
 }
 
  nav a {
